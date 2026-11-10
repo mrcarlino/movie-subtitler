@@ -1,0 +1,19 @@
+# Core video downloader
+yt-dlp>=2024.10.0
+curl_cffi>=0.7.0
+
+# Speech-to-text AI for subtitle generation
+faster-whisper>=1.0.0
+
+# Audio/Video decoding compatibility
+av>=11.0.0
+
+# Optional: Bundles a static FFmpeg binary if system FFmpeg is not installed
+imageio-ffmpeg>=0.5.1
+
+# Progress indicators
+tqdm>=4.66.0
+
+# Linux/WSL CUDA runtime libraries for GPU acceleration
+nvidia-cublas-cu12>=12.1.0; platform_system == "Linux"
+nvidia-cudnn-cu12>=9.0.0; platform_system == "Linux"

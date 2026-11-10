@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large media files & downloads (prevent committing 500MB+ movies to git)
+downloads/
+*.mp4
+*.mkv
+*.webm
+*.avi
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.srt
+*.vtt
+
+# Temporary frames & logs
+sample_frame.jpg
+*.tmp
+*.log
+
+# Editor & OS files
+.DS_Store
+.vscode/
+.idea/
