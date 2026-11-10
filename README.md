@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+![Movie Subtitler Demo](docs/images/image.png)
+
 A minimalist, Linux-native Python tool that:
 1. **Downloads** online videos (YouTube, Facebook, Bilibili, Vimeo, etc.) or processes local video files using `yt-dlp`.
 2. **Obtains English Subtitles**:
